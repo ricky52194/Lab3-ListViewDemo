@@ -1,4 +1,4 @@
 # Lab3-ListViewDemo
 
-## Master Branch - SimpleArrayAdapter Version
-## multiLineAdapter - CourseAdapter Version
+## master Branch - SimpleArrayAdapter Version
+## multiLineAdapter Branch - CourseAdapter Version
