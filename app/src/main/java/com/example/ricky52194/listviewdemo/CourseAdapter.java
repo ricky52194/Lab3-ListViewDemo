@@ -6,9 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 /**
@@ -44,7 +41,7 @@ public class CourseAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View view, ViewGroup viewGroup) {
-        View rowView = mInflater.inflate(android.R.layout.simple_expandable_list_item_2, viewGroup);
+        View rowView = mInflater.inflate(android.R.layout.simple_expandable_list_item_2, viewGroup, false);
 
         TextView courseNumberView = rowView.findViewById(android.R.id.text1);
         TextView courseNameView = rowView.findViewById(android.R.id.text2);
